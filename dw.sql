@@ -35,7 +35,7 @@ Group By Member_Number;
 
 
 
-# Aggregate table m, table consum, promotion data and special events data from raw data tables
+# Consolidate table m, table consum, promotion data and special events data from raw data tables
 Drop Table if exists dw;
 Create Table dw as
 Select m.*, Coalesce(Brunch) as Brunch, Coalesce(Lunch) as Lunch, Coalesce(Dinner_Weekday) as Dinner_Weekday, Coalesce(Dinner_Weekend) as Dinner_Weekend, Coalesce(Special) as Special,Coalesce(Dining) as Dining,Coalesce(Pool) as Pool, Coalesce(Golf) as Golf, Coalesce(Tennis) as Tennis,
