@@ -7,5 +7,5 @@ Tool: SQL, Tableau
 * created EER diagram and relational schema  <br>
 * implemented ETL(extract,transform and load) data processing and built a data warehouse <br>
 * wrote ad-hoc queries to extract records from the data warehouse and analyze the performance of categories, purchase patterns of different membership type groups, promotion effectiveness and etc. <br>
-* visualized the results with Tableau  <br>
+* visualized the results with Tableau  <br
 
